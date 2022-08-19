@@ -16,7 +16,9 @@ red_color = (255, 0, 0)
 color_light = (170,170,170)
 smallfont = pygame.font.SysFont('Corbel',35)
 
-cortex = Cortex("yEii15GmRxZBfXJNQlfNM9f8fNsbufMHdUuZrXt0", "tUDyneiZBLdVSJTfqe5Bl2uT2o3Nfi66glfPSn1X2GN9Zii3QMHNmOhW8cBRowQOtcuClPOc7ItZbtLvtKCwLFxN2VgLLwCgfeHsYcGNMNxjl4mbHckpUN8ahNYWlQSb", "wss://localhost:6868")
+# First parameter is Client ID from cortex
+# Second parameter is Secret ID
+cortex = Cortex("xxx", "xxx", "wss://localhost:6868")
 
 async def connect():
     response = await cortex.queryHeadsets()
