@@ -5,4 +5,6 @@ Created a GUI using PyGame and simulated an app where it uses MLPClassifier to c
 * Cortex SDK approval for using EEG signals.
 * Paid version of EmotivPro.
 
+### Here is A screenShot of the App
+
 ![App ScreenShot](image.png)
